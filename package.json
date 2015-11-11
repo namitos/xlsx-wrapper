@@ -1,0 +1,11 @@
+{
+	"name": "xlsx-wrapper",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"xlsx-style": "0.8.x"
+	},
+	"devDependencies": {},
+	"author": "Artem Tankayan"
+}
