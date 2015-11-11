@@ -74,17 +74,8 @@ process.on('message', function (message) {
 		SheetNames: Object.keys(sheets),
 		Sheets: sheets
 	}, path);
-	fs.readFile(path, function (err, result) {
-		if (err) {
-			process.send({
-				err: err
-			});
-		} else {
-			process.send({
-				result: result
-			});
-		}
+	process.send({
+		result: path
 	});
 
 });
-
